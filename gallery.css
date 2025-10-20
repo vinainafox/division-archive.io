@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Mori;
+  background: #853B92;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.gallery {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cards {
+  position: absolute;
+  width: 14rem;
+  height: 18rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cards li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 14rem;
+  height: 18rem;
+  text-align: center;
+  line-height: 18rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.8rem;
+}
+
+.cards li img {
+  max-width: 90%;
+  opacity: 0;
+}
+
+.actions {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.prev{
+  background: #5B1F65;
+  border-radius: 40px;
+}
+.next{
+background: #5B1F65;
+  border-radius: 40px;
+}
+button {
+  display: inline-block;
+  outline: none;
+  padding: 8px 14px;
+  background: var(--dark);
+  border: solid 2px var(--light);
+  color: #f2a705;
+  text-decoration: none;
+  border-radius: 99px;
+  padding: 12px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 18px;
+  margin: 1rem;
+}
+
+a {
+  color: #88ce02;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.closea {
+  background: #5B1F65;
+  
+  height: 100px;
+  width: 40px;
+  height: 40px;
+  margin-top: 130px;
+  margin-left: 30px;
+ 
+}
+.cardsbords {
+  border: 8px solid #5B1F65;
+}
+.txtclose{
+  align-items: center; /* Центрирует элементы по вертикали */
+  justify-content: center; /* Центрирует элементы по горизонтали */
+  display: flex;
+  color: #f2a705;
+  font-size: 3rem;
+}
