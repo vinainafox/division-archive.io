@@ -18,8 +18,8 @@ body {
 
 .cards {
   position: absolute;
-  width: 14rem;
-  height: 18rem;
+  width: 35rem;
+  height: 20rem;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
