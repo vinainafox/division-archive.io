@@ -18,8 +18,8 @@ body {
 
 .cards {
   position: absolute;
-  width: 50rem;
-  height: 20rem;
+   width: 14rem;
+  height: 18rem;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -29,7 +29,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 14rem;
+  width: 125%;
   height: 18rem;
   text-align: center;
   line-height: 18rem;
